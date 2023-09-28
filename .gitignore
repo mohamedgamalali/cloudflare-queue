@@ -1,0 +1,40 @@
+node_modules
+dist
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.DS_Store
+.idea
+
+# Serverless directories
+.serverless
+.webpack
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+
+local
+!local/.gitkeep
+
+# VSCode
+*.code-workspace
+.vscode/settings.json
+
+# Terraform
+.terragrunt-cache
+
+
+services/gpt-service/prompts/test-outputs/
+.yarn
+
+mongoose-types.fe.ts
